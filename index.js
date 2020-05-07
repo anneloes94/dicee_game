@@ -12,9 +12,9 @@ function rollDice () {
   const playerTwo = document.querySelectorAll("div.dice p")[1].innerHTML
   
   if (randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML = `${playerOne} wins!`
+    document.querySelector("h1").innerHTML = `<i class="fas fa-trophy"></i> ${playerOne} wins!`
   } else if (randomNumber2 > randomNumber1) {
-    document.querySelector("h1").innerHTML = `${playerTwo} wins!`
+    document.querySelector("h1").innerHTML = `${playerTwo} wins! <i class="fas fa-trophy"></i>`
   } else {
     document.querySelector("h1").innerHTML = "Draw!"
   }
