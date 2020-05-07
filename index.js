@@ -19,4 +19,6 @@ function rollDice () {
     document.querySelector("h1").innerHTML = "Draw!"
   }
 
+  document.querySelector("button").innerHTML = "Roll again!"
+
 }
