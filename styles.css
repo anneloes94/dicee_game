@@ -11,15 +11,15 @@
 }
 
 body {
-  background-color: #393E46;
+  background-color: #4ECCA3;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
+  font-family: 'Rubik', cursive;
+  text-shadow: 5px 0 #000000;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: rgb(0, 0, 0);
 }
 
 p {
@@ -30,12 +30,4 @@ p {
 
 img {
   width: 80%;
-}
-
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
 }
